@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: var(--main-font);
+  font-size: var(--main-size);
+  color: var(--text-color);
+  background-color: var(--main-color);
+
+  counter-reset: section;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  // outline: 1px solid tomato;
+  width: 1110px;
+}

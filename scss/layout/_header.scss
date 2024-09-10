@@ -1,0 +1,40 @@
+.header {
+  background-color: var(--secondary-color);
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 23px 0;
+}
+.nav {
+  display: flex;
+  margin-left: 56px;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: var(--regular);
+  font-size: var(--main-size);
+  line-height: 24px;
+}
+.nav__item {
+  flex-shrink: 0;
+  &:not(:last-child) {
+    margin-right: 27px;
+  }
+}
+.nav__link {
+  color: var(--text-color);
+}
+.search-container {
+  margin-left: 67px;
+  width: 307px;
+  height: 35px;
+}
+.auth {
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  margin-left: 26px;
+}

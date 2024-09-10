@@ -1,0 +1,94 @@
+.how__works {
+  padding-top: 33px;
+  padding-bottom: 60px;
+  &-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-text {
+    font-family: "Oswald";
+    font-size: var(--small-size);
+    color: #ff5c00;
+  }
+}
+
+.works__box {
+  width: 435px;
+  .works__title {
+    font-family: "Oswald";
+    color: var(--text-dark);
+    line-height: 40px;
+    font-size: 40px;
+    margin-top: 19px;
+    margin-bottom: 43px;
+  }
+}
+.works__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 435px;
+  height: 58px;
+  padding: 21px 21px 20px 24px;
+  border-radius: 5px;
+  background-color: var(--secondary-color);
+
+  &-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  &-title {
+    margin-left: 15px;
+    font-family: var(--main-font);
+    font-size: var(--medium-size);
+    font-weight: var(--semi-bold);
+  }
+  &-text {
+    color: var(--secondary-text-color);
+    font-weight: var(--regular);
+    font-size: var(--small-size);
+  }
+  &:not(:last-of-type) {
+    margin-bottom: 20px;
+  }
+}
+.open {
+  height: 134px;
+  flex-direction: column;
+  &-text {
+    padding-left: 45px;
+  }
+}
+.works__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.one {
+  color: #9444c9;
+  background-color: #f3e0ff;
+}
+.two {
+  color: #626fff;
+  background-color: #e7e9fe;
+}
+.three {
+  color: #ff5c00;
+  background-color: #ffdecc;
+}
+.works__img {
+  width: 635px;
+  height: 433px;
+  border-radius: 10px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
