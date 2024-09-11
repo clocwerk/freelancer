@@ -1,0 +1,180 @@
+.feautured {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &-title {
+    font-family: "Oswald";
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: var(--regular);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &-text {
+    line-height: 24px;
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 0% 283px;
+  }
+  &-position {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 16px;
+    font-weight: var(--regular);
+    letter-spacing: 0.8px;
+  }
+  &-team {
+    margin-bottom: 44px;
+    font-weight: var(--regular);
+    line-height: 22px;
+    color: #4238af;
+  }
+  &-salary {
+    font-size: var(--medium-size);
+    line-height: 23px;
+    margin-bottom: 14px;
+    position: relative;
+    padding-left: 25px;
+  }
+  &-spot {
+    font-size: var(--medium-size);
+    line-height: 23px;
+    margin-bottom: 33px;
+    position: relative;
+    padding-left: 25px;
+  }
+}
+.feautured-salary::before {
+  background-image: url(../../images/svg/bag.svg);
+
+  content: "";
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  background-size: contain;
+  // display: inline-block;
+
+  width: 16px;
+  height: 18px;
+
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+.feautured-spot::before {
+  background-image: url(../../images/svg/mark.svg);
+
+  content: "";
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  background-size: contain;
+  // display: inline-block;
+
+  width: 16px;
+  height: 18px;
+
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+.monthly {
+  color: var(--secondary-text-color);
+  margin-left: 4px;
+  text-align: left;
+}
+.map {
+  color: var(--secondary-text-color);
+  margin-left: 17px;
+
+  text-align: left;
+}
+
+.feautured-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+.feautured-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 50px;
+  width: 340px;
+  height: 465px;
+  border-radius: 20px;
+  box-shadow: -1px 1px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  &:hover {
+    transform: translateY(-15px);
+    background-color: #f9faff;
+  }
+}
+.feautured-employers {
+  margin-bottom: 40px;
+}
+.feautured-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.feautured-buttons-like {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #f9faff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  svg {
+    fill: #ff5c00;
+    transition: fill 0.3s ease, color 0.3s ease;
+  }
+}
+.feautured-buttons-like:hover {
+  background-color: #ff5c00;
+  svg {
+    fill: white;
+  }
+}
+.feautured-buttons-apply {
+  background-color: rgb(56, 49, 139, 0.3);
+  color: #38318b;
+  width: 140px;
+  height: 45px;
+  border-radius: 47px;
+  border: 0;
+  font-family: "Open Sans";
+  font-size: var(--medium-size);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.feautured-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feautured-buttons-apply:hover {
+  color: white;
+  background-color: #544cac;
+}
+.feautured-buttons-view {
+  color: white;
+  background-color: #544cac;
+  width: 140px;
+  height: 45px;
+  border-radius: 47px;
+  border: 0;
+  font-family: "Open Sans";
+  font-size: var(--medium-size);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.feautured-buttons-view:hover {
+  background-color: rgb(56, 49, 139, 0.3);
+  color: #38318b;
+}
