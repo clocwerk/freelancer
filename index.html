@@ -33,7 +33,7 @@
               <a class="nav__link" href="">About Us</a>
             </li>
           </ul>
-          <a class="search-container">
+          <div class="search-container">
             <input
               type="text"
               placeholder="Search here...."
@@ -42,7 +42,7 @@
             <div class="search-box">
               <img src="./images/svg/search.svg" alt="search-icon" />
             </div>
-          </a>
+          </div>
           <div class="auth">
             <a class="nav__link" href="">Login</a>
             <div>/</div>
@@ -67,12 +67,27 @@
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip.
             </p>
-            <button class="button-discover">Discover Now</button>
-            <div class="button-watch">
-              <div>
-                <img src="" alt="" />
+            <div class="hat-buttons">
+              <button class="button-discover">Discover Now</button>
+              <div class="button-watch">
+                <div class="button-watch-container">
+                  <svg
+                    width="23"
+                    height="23"
+                    viewBox="0 0 23 23"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M23 11.5C23 17.8513 17.8513 23 11.5 23C5.14873 23 0 17.8513 0 11.5C0 5.14873 5.14873 0 11.5 0C17.8513 0 23 5.14873 23 11.5ZM1.85424 11.5C1.85424 16.8272 6.17279 21.1458 11.5 21.1458C16.8272 21.1458 21.1458 16.8272 21.1458 11.5C21.1458 6.17279 16.8272 1.85424 11.5 1.85424C6.17279 1.85424 1.85424 6.17279 1.85424 11.5Z"
+                    />
+                    <path
+                      d="M8.62393 6.15146L8.86802 17.9045L17.944 11.8369L8.62393 6.15146Z"
+                    />
+                  </svg>
+                </div>
+                <p>Watch Demo</p>
               </div>
-              <p>Watch Demo</p>
             </div>
           </div>
           <div>
@@ -326,7 +341,262 @@
           </div>
         </div>
       </section>
+      <section class="customers">
+        <div class="container">
+          <div class="customers-container">
+            <h2 class="customers-title">What Our Customer Says</h2>
+            <p class="customers-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <div class="customers-about">
+            <div class="about-img">
+              <img src="./images/customers/customer.png" alt="man" />
+            </div>
+            <div class="about-container">
+              <h3 class="about-container-title">William Smith</h3>
+              <p class="about-container-ceo">CEO OF THE LOVE STUDENTS</p>
+              <div class="about-container-score">
+                <img src="./images/svg/score.svg" alt="" />
+                <p>4.8</p>
+              </div>
+              <p class="about-container-text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam,quis nostrud exercitation ullamco laboris
+                nisi ut aliquip.Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam,quis nostrud
+                exercitation ullamco laboris nisi ut aliquip.”
+              </p>
+              <div class="customers-navigation">
+                <div class="customers-navigation-buttons">
+                  <div class="arrow-button">
+                    <svg
+                      class="arrow-button-svg"
+                      width="22"
+                      height="19"
+                      viewBox="0 0 22 19"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g transform="scale(-1, 1) translate(-24, 0)">
+                        <path
+                          d="M19.0151 9.61149L11.9049 2.50124C11.4577 2.05404 11.4577 1.33852 11.9049 0.936039C12.3521 0.533558 13.0676 0.488838 13.4701 0.936039L21.3858 8.85176C21.833 9.29896 21.833 10.0145 21.3858 10.417L13.1123 18.6455C12.8887 18.8691 12.6204 18.9585 12.3074 18.9585C11.9943 18.9585 11.726 18.8691 11.5024 18.6455C11.0552 18.1983 11.0552 17.4827 11.5024 17.0803L19.0151 9.61149Z"
+                        />
+                        <path
+                          d="M1.35116 8.67163L13.4256 8.67163C14.0517 8.67163 14.5436 9.16355 14.5436 9.78963C14.5436 10.4157 14.0517 10.9076 13.4256 10.9076L1.35116 10.9076C0.725075 10.9076 0.233154 10.4157 0.233154 9.78963C0.233154 9.16355 0.725075 8.67163 1.35116 8.67163Z"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="arrow-button">
+                    <svg
+                      class="arrow-button-svg"
+                      width="22"
+                      height="19"
+                      viewBox="0 0 22 19"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19.0151 9.61149L11.9049 2.50124C11.4577 2.05404 11.4577 1.33852 11.9049 0.936039C12.3521 0.533558 13.0676 0.488838 13.4701 0.936039L21.3858 8.85176C21.833 9.29896 21.833 10.0145 21.3858 10.417L13.1123 18.6455C12.8887 18.8691 12.6204 18.9585 12.3074 18.9585C11.9943 18.9585 11.726 18.8691 11.5024 18.6455C11.0552 18.1983 11.0552 17.4827 11.5024 17.0803L19.0151 9.61149Z"
+                      />
+                      <path
+                        d="M1.35116 8.67163L13.4256 8.67163C14.0517 8.67163 14.5436 9.16355 14.5436 9.78963C14.5436 10.4157 14.0517 10.9076 13.4256 10.9076L1.35116 10.9076C0.725075 10.9076 0.233154 10.4157 0.233154 9.78963C0.233154 9.16355 0.725075 8.67163 1.35116 8.67163Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <img
+                  src="./images/customers/allCustomers.png"
+                  alt="customers"
+                />
+              </div>
+            </div>
+          </div>
+          <ul class="customers-list">
+            <li class="customers-item">
+              <span>36,789</span>
+              <p>Talented Freelancer</p>
+            </li>
+            <li class="customers-item"></li>
+            <li class="customers-item">
+              <span>45,973</span>
+              <p>Visitors</p>
+            </li>
+            <li class="customers-item"></li>
+            <li class="customers-item">
+              <span>56,461</span>
+              <p>Contract Made</p>
+            </li>
+            <li class="customers-item"></li>
+            <li class="customers-item">
+              <span>852k</span>
+              <p>Companies</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="pricing">
+        <div class="container">
+          <div class="pricing-container">
+            <h2 class="pricing-title">Pricing Plan</h2>
+            <p class="pricing-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <ul class="pricing-list">
+            <li class="pricing-item">
+              <h3 class="pricing-item-plan">FREE</h3>
+              <p class="pricing-item-price">$0</p>
+              <p class="pricing-item-month">Per month</p>
+              <div class="pricing-item-include">
+                <p class="item-include">Lorem ipsum dolor sit amet.</p>
+                <p class="item-include">Sed do eiusmod tempor</p>
+                <p class="item-include">Lorem ipsum dolor sit amet.</p>
+              </div>
+              <button>Purchase Now</button>
+            </li>
+            <li class="pricing-item">
+              <h3 class="pricing-item-plan">PREMIUM</h3>
+              <p class="pricing-item-price">$175</p>
+              <p class="pricing-item-month">Per month</p>
+              <div class="pricing-item-include">
+                <p class="item-include">Lorem ipsum dolor sit amet.</p>
+                <p class="item-include">Ut enim ad minim veniam.</p>
+                <p class="item-include">Lorem ipsum dolor sit amet.</p>
+              </div>
+              <button>Purchase Now</button>
+            </li>
+            <li class="pricing-item">
+              <h3 class="pricing-item-plan">PLATNIUM</h3>
+              <p class="pricing-item-price">$500</p>
+              <p class="pricing-item-month">Per month</p>
+              <div class="pricing-item-include">
+                <p class="item-include">Lorem ipsum dolor sit amet.</p>
+                <p class="item-include">Ut enim ad minim veniam.</p>
+                <p class="item-include">Sed do eiusmod tempor</p>
+              </div>
+              <button>Purchase Now</button>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer-list">
+          <li class="footer-item">
+            <h3>Olearn</h3>
+            <p>About</p>
+            <p>What we offer</p>
+            <p>Leadership</p>
+            <p>Careers</p>
+          </li>
+          <li class="footer-item">
+            <h3>Courses</h3>
+            <p>Classroom Courses</p>
+            <p>Virtual Courses</p>
+            <p>E-Learning Courses</p>
+            <p>Off Line Courses</p>
+          </li>
+          <li class="footer-item">
+            <h3>Community</h3>
+            <p>Learner</p>
+            <p>Partners</p>
+            <p>Developers</p>
+            <p>Teaching Centre</p>
+          </li>
+          <li class="footer-item">
+            <h3>Quick Links</h3>
+            <p>Home</p>
+            <p>Professional Edu</p>
+            <p>Courses</p>
+            <p>Admissions</p>
+          </li>
+          <li class="footer-item">
+            <h3>More</h3>
+            <p>Press</p>
+            <p>Inventors</p>
+            <p>Helps</p>
+            <p>Terms</p>
+          </li>
+        </ul>
+        <div class="footer-container">
+          <img
+            class="footer-container-img"
+            src="./images/footer/logoFooter.png"
+            alt="logo"
+          />
+          <div class="footer-faq">
+            <p>Terms of Use</p>
+            <p>Protfolio</p>
+            <p>Privacy policy</p>
+            <p>Contact us</p>
+            <p>FAQ</p>
+          </div>
+          <ul class="footer-svg-list">
+            <li class="footer-svg-item">
+              <svg
+                width="13"
+                height="13"
+                viewBox="0 0 13 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.49701 0.62793C3.25148 0.62793 0.619873 3.27553 0.619873 6.54079C0.619873 9.50518 2.79057 11.9531 5.61838 12.3807V8.1077H4.16424V6.55353H5.61838V5.51923C5.61838 3.807 6.44751 3.05561 7.86209 3.05561C8.53932 3.05561 8.89805 3.10633 9.06736 3.12907V4.48562H8.1026C7.50223 4.48562 7.29246 5.05871 7.29246 5.70412V6.55353H9.05221L8.81374 8.1077H7.29246V12.3929C10.161 12.0018 12.3742 9.53429 12.3742 6.54079C12.3742 3.27553 9.74278 0.62793 6.49701 0.62793Z"
+                />
+              </svg>
+            </li>
+            <li class="footer-svg-item">
+              <svg
+                width="11"
+                height="11"
+                viewBox="0 0 11 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.98771 0.412109C1.34984 0.412109 0.0171509 1.7468 0.0171509 3.38657V7.63478C0.0171509 9.27435 1.35062 10.6084 2.9889 10.6084H7.23324C8.87132 10.6084 10.2042 9.27376 10.2042 7.63399V3.38538C10.2042 1.74601 8.87072 0.412109 7.23244 0.412109H2.98771ZM8.16679 2.04352C8.39172 2.04352 8.57427 2.22624 8.57427 2.45138C8.57427 2.67651 8.39172 2.85923 8.16679 2.85923C7.94186 2.85923 7.75931 2.67651 7.75931 2.45138C7.75931 2.22624 7.94186 2.04352 8.16679 2.04352ZM5.11067 2.85923C6.5715 2.85923 7.75931 4.04812 7.75931 5.51028C7.75931 6.97243 6.57129 8.16133 5.11067 8.16133C3.64985 8.16133 2.46204 6.97223 2.46204 5.51028C2.46204 4.04833 3.64985 2.85923 5.11067 2.85923ZM5.11067 3.67494C4.09788 3.67494 3.27701 4.49656 3.27701 5.51028C3.27701 6.524 4.09788 7.34562 5.11067 7.34562C6.12347 7.34562 6.94434 6.524 6.94434 5.51028C6.94434 4.49656 6.12347 3.67494 5.11067 3.67494Z"
+                />
+              </svg>
+            </li>
+            <li class="footer-svg-item">
+              <svg
+                width="15"
+                height="13"
+                viewBox="0 0 15 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.9522 1.80319C14.4338 2.04105 13.8763 2.19962 13.2882 2.27456C13.8862 1.90703 14.3461 1.32083 14.562 0.628228C14.0026 0.967878 13.3828 1.21725 12.7234 1.34871C12.1968 0.770686 11.4457 0.412109 10.6135 0.412109C9.01498 0.412109 7.71949 1.74207 7.71949 3.38175C7.71949 3.61373 7.74568 3.83982 7.79507 4.05926C5.39033 3.93419 3.25753 2.75053 1.83064 0.954067C1.57994 1.39295 1.43891 1.90703 1.43891 2.4495C1.43891 3.48047 1.9487 4.38791 2.726 4.92271C2.25152 4.90762 1.80495 4.77104 1.41396 4.55186C1.41396 4.56081 1.41396 4.57411 1.41396 4.58664C1.41396 6.02734 2.41182 7.22686 3.73448 7.50002C3.49267 7.56856 3.23728 7.60667 2.97398 7.60667C2.787 7.60667 2.60497 7.58467 2.42862 7.55193C2.79688 8.7292 3.86539 9.58984 5.13123 9.61516C4.14078 10.4103 2.89346 10.8865 1.53696 10.8865C1.30257 10.8865 1.0736 10.8727 0.847107 10.8443C2.12827 11.6845 3.65 12.1771 5.28338 12.1771C10.6059 12.1771 13.5175 7.65117 13.5175 3.72498C13.5175 3.59633 13.5135 3.4682 13.5076 3.3416C14.0759 2.92624 14.5655 2.40193 14.9522 1.80319Z"
+                />
+              </svg>
+            </li>
+            <li class="footer-svg-item">
+              <svg
+                width="16"
+                height="11"
+                viewBox="0 0 16 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.1503 2.16461C15.0126 1.46386 14.3569 0.953541 13.5958 0.794223C12.457 0.571427 10.3493 0.412109 8.06888 0.412109C5.78982 0.412109 3.6484 0.571427 2.5082 0.794223C1.74851 0.953541 1.09138 1.43149 0.953741 2.16461C0.814758 2.96119 0.677124 4.07642 0.677124 5.51028C0.677124 6.94414 0.814758 8.05936 0.987475 8.85595C1.12646 9.5567 1.78224 10.067 2.54193 10.2263C3.75095 10.4491 5.82355 10.6084 8.10396 10.6084C10.3844 10.6084 12.457 10.4491 13.666 10.2263C14.4257 10.067 15.0815 9.58906 15.2204 8.85595C15.3581 8.05936 15.5308 6.91178 15.5659 5.51028C15.4957 4.07642 15.323 2.96119 15.1503 2.16461ZM6.20407 7.74073V3.27983L10.4181 5.51028L6.20407 7.74073Z"
+                />
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
   <script src="./index.js"></script>
 </html>

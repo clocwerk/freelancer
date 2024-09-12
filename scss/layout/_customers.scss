@@ -1,0 +1,117 @@
+.customers {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  &-title {
+    font-family: "Oswald";
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: var(--regular);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &-text {
+    line-height: 24px;
+    color: var(--secondary-text-color);
+    text-align: center;
+
+    padding: 0% 283px;
+  }
+  &-container {
+    margin-bottom: 45px;
+  }
+}
+.customers-about {
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.about-img {
+  width: 350px;
+  height: 350px;
+}
+.about-container {
+  margin-left: 30px;
+  width: 730px;
+
+  &-title {
+    font-weight: var(--semi-bold-weight);
+    font-size: 20px;
+    margin-bottom: 13px;
+    line-height: 17px;
+  }
+  &-ceo {
+    line-height: 21px;
+    margin-bottom: 16px;
+    color: var(--secondary-text-color);
+  }
+  &-score {
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: flex-end;
+    p {
+      margin-left: 10px;
+      font-weight: bold;
+    }
+  }
+  &-text {
+    color: var(--text-dark);
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    margin-bottom: 39px;
+  }
+}
+.customers-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &-buttons {
+    display: flex;
+    align-items: center;
+  }
+}
+.arrow-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  cursor: pointer;
+  width: 41px;
+  height: 41px;
+  background-color: #f3f5ff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  svg {
+    fill: #ef6010;
+    transition: fill 0.3s ease, color 0.3s ease;
+  }
+}
+.arrow-button:hover {
+  background-color: #ef6010;
+  svg {
+    fill: #f3f5ff;
+  }
+}
+.customers-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 74px 115px;
+  background-color: #ced5f4;
+  border-radius: 30px;
+}
+.customers-item {
+  text-align: center;
+  span {
+    font-family: "Oswald";
+    font-size: 40px;
+    color: #584ec6;
+  }
+  p {
+    color: white;
+    font-size: var(--medium-size);
+    margin-top: 14px;
+  }
+}

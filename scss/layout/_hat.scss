@@ -25,7 +25,12 @@
     margin-bottom: 30px;
   }
 }
+.hat-buttons {
+  display: flex;
+  align-items: center;
+}
 .button-discover {
+  font-family: "Open Sans";
   width: 150px;
   height: 44px;
   padding: 12px 21px;
@@ -37,7 +42,26 @@
   border-radius: 5px;
 }
 .button-watch {
-  width: 150px;
+  display: flex;
+  align-items: center;
+  margin-left: 34px;
+  p {
+    margin-left: 10px;
+    font-size: var(--medium-size);
+  }
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    svg {
+      fill: #ff5c00;
+    }
+  }
 }
 
 .hat-block-span {
