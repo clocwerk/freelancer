@@ -18,18 +18,28 @@
   &-container {
     margin-bottom: 75px;
   }
+  @media screen and (max-width: 480px) {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    &-text {
+      padding: 0% 40px;
+    }
+  }
 }
 .pricing-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 .pricing-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 62px 65px;
-  width: 350px;
   border-radius: 20px;
   box-shadow: -1px 1px 20px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
@@ -75,6 +85,12 @@
   button:hover {
     color: white;
     background-color: #544cac;
+  }
+  @media screen and (max-width: 480px) {
+    padding: 32px 35px;
+    &-month {
+      margin-bottom: 31px;
+    }
   }
 }
 .item-include {

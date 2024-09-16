@@ -46,6 +46,22 @@
   &-container {
     margin-bottom: 80px;
   }
+  @media screen and (max-width: 480px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    &-text {
+      padding: 0% 40px;
+    }
+    &-position {
+      font-size: 16px;
+    }
+    &-salary {
+      font-size: 12px;
+    }
+    &-spot {
+      font-size: 12px;
+    }
+  }
 }
 .feautured-salary::before {
   background-image: url(../../images/svg/bag.svg);
@@ -96,6 +112,10 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 75px;
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 .feautured-item {
   display: flex;
@@ -110,6 +130,10 @@
   &:hover {
     transform: translateY(-15px);
     background-color: #f9faff;
+  }
+  @media screen and (max-width: 480px) {
+    width: auto;
+    height: auto;
   }
 }
 .feautured-employers {
@@ -154,6 +178,10 @@
   font-size: var(--medium-size);
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
+  @media screen and (max-width: 480px) {
+    width: 120px;
+    font-size: 14px;
+  }
 }
 .feautured-view {
   display: flex;

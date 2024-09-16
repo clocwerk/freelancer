@@ -1,6 +1,10 @@
 .hat {
   background-color: var(--secondary-color);
   padding-top: 33px;
+  padding-bottom: 30px;
+  @media screen and (min-width: 480px) {
+    padding-bottom: 0;
+  }
 }
 .hat__container {
   display: flex;
@@ -8,13 +12,11 @@
   justify-content: space-between;
 }
 .hat__block {
-  max-width: 543px;
-  max-height: 328px;
   h1 {
     font-family: "Prompt";
     color: var(--text-dark);
-    font-size: var(--large-size);
-    line-height: 55px;
+    font-size: 30px;
+    line-height: 30px;
     margin-bottom: 18px;
   }
 
@@ -24,27 +26,57 @@
     line-height: 24px;
     margin-bottom: 30px;
   }
+  @media screen and (min-width: 480px) {
+    max-width: 543px;
+    max-height: 328px;
+    h1 {
+      font-size: var(--large-size);
+      line-height: 55px;
+    }
+  }
+}
+.hat-img {
+  display: none;
+  @media screen and (min-width: 480px) {
+    display: block;
+  }
 }
 .hat-buttons {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  @media screen and (min-width: 480px) {
+    justify-content: left;
+  }
 }
 .button-discover {
   font-family: "Open Sans";
-  width: 150px;
+  width: 130px;
   height: 44px;
+
   padding: 12px 21px;
+  font-size: 13px;
   color: #ffffff;
-  font-size: var(--medium-size);
   background-color: #544cac;
   text-align: center;
   border: 0;
   border-radius: 5px;
+  @media screen and (min-width: 480px) {
+    font-size: var(--medium-size);
+    width: 150px;
+    height: 44px;
+  }
 }
 .button-watch {
   display: flex;
   align-items: center;
-  margin-left: 34px;
+  margin-left: 15px;
+  @media screen and (min-width: 480px) {
+    margin-left: 34px;
+    p {
+      font-size: 13px;
+    }
+  }
   p {
     margin-left: 10px;
     font-size: var(--medium-size);

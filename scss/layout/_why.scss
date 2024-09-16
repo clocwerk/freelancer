@@ -18,12 +18,23 @@
   &-container {
     margin-bottom: 60px;
   }
+  @media screen and (max-width: 480px) {
+    padding-top: 23px;
+    padding-bottom: 30px;
+    &-text {
+      padding: 0% 40px;
+    }
+  }
 }
 
 .why-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 .why-item {
   width: 350px;
@@ -33,6 +44,10 @@
   border-radius: 10px;
   box-shadow: -1px 1px 20px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  @media screen and (max-width: 480px) {
+    width: auto;
+    height: auto;
+  }
 
   h3 {
     font-weight: var(--semi-bold-weight);

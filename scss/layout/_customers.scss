@@ -19,6 +19,13 @@
   &-container {
     margin-bottom: 45px;
   }
+  @media screen and (max-width: 480px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    &-text {
+      padding: 0% 40px;
+    }
+  }
 }
 .customers-about {
   display: flex;
@@ -28,6 +35,9 @@
 .about-img {
   width: 350px;
   height: 350px;
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
 }
 .about-container {
   margin-left: 30px;
@@ -101,6 +111,12 @@
   padding: 74px 115px;
   background-color: #ced5f4;
   border-radius: 30px;
+  @media screen and (max-width: 480px) {
+    padding: 74px 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }
 .customers-item {
   text-align: center;
@@ -113,5 +129,9 @@
     color: white;
     font-size: var(--medium-size);
     margin-top: 14px;
+    @media screen and (max-width: 480px) {
+      margin-top: 0;
+      height: 43px;
+    }
   }
 }
